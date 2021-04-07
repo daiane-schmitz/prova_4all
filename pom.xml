@@ -8,7 +8,6 @@
     <artifactId>prova_4all</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
     <properties>
         <aspectj.version>1.8.10</aspectj.version>
         <junit.version>4.12</junit.version>
@@ -83,4 +82,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

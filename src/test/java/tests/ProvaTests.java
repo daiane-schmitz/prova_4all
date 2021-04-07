@@ -26,9 +26,8 @@ public class ProvaTests extends BaseTests{
         candyPage.clickAddAlfajorToCart();
         homePage.clickCartBtn();
         cartPage.clickChocolateBallPlusBtn();
-        cartPage.isQtdChocolateBallFive();
+        assertTrue(cartPage.isQtdChocolateBallFive());
         cartPage.clickCheckOutBtn();
-        cartPage.isSucessMessage();
         cartPage.clickCloseBtn();
     }
 
@@ -52,12 +51,12 @@ public class ProvaTests extends BaseTests{
         allPage.clickAddRisoleToCart();
         homePage.clickCartBtn();
         cartPage.clickRisolePlusBtn();
-        cartPage.isQtdRisoleNine();
+        assertTrue(cartPage.isQtdRisoleTen());
         cartPage.clickRisoleMinusBtn();
-        cartPage.isQtdRisoleFive();
-        cartPage.isTotalPriceCorrect();
+        assertTrue(cartPage.isQtdRisoleFive());
+        assertTrue(cartPage.isTotalPriceCorrect());
         cartPage.clickCheckOutBtn();
-        cartPage.isSucessMessage();
+        assertTrue(cartPage.isSucessMessage());
         cartPage.clickCloseBtn();
     }
 

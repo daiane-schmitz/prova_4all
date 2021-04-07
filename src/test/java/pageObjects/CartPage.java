@@ -12,13 +12,13 @@ public class CartPage extends CartPageElementMapper {
 
     public void clickChocolateBallPlusBtn() {
         int i;
-        for (i = 0; i <= 5; i++) {
+        for (i = 1; i <= 4; i++) {
             plusChocolateBallBtn.click();
         }
     }
     public void clickRisolePlusBtn(){
         int i;
-        for (i = 0; i <= 8; i++) {
+        for (i = 1; i <= 9; i++) {
             plusRisoleBtn.click();
         }
     }
@@ -28,25 +28,25 @@ public class CartPage extends CartPageElementMapper {
     }
 
     public boolean isQtdChocolateBallFive(){
-        return getQtdChocolateBall().equals(5);
+        return getQtdChocolateBall().equals("5");
     }
 
     public String getQtdRisole(){
         return qtdRisole.getText();
     }
 
-    public boolean isQtdRisoleNine(){
-        return getQtdRisole().equals(9);
+    public boolean isQtdRisoleTen(){
+        return getQtdRisole().equals("10");
     }
 
     public void clickRisoleMinusBtn() {
         int i;
-        for (i = 0; i <= 4; i++) {
+        for (i = 1; i <= 5; i++) {
             minusRisoleBtn.click();
         }
     }
     public boolean isQtdRisoleFive(){
-        return getQtdRisole().equals(5);
+        return getQtdRisole().equals("5");
     }
 
     public String getTotalPrice(){
