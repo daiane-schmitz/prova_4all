@@ -1,0 +1,14 @@
+pageObjects\AllPage.class
+utils\Browser.class
+elementMapper\CartPageElementMapper.class
+utils\Utils.class
+elementMapper\CandyPageElementMapper.class
+pageObjects\HomePage.class
+pageObjects\DrinksPage.class
+tests\BaseTests.class
+elementMapper\DrinksPageElementMapper.class
+elementMapper\HomePageElementMapper.class
+pageObjects\CartPage.class
+elementMapper\AllPageElementMapper.class
+tests\ProvaTests.class
+pageObjects\CandyPage.class
